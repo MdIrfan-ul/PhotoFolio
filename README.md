@@ -4,7 +4,7 @@ ___
 
 ## Live
 
-- Live Url:- `https://photofolioreact.netlify.app/`
+- <a href='https://photofolioreact.netlify.app/' target=_blank>Live</a>
 ___
 
 ## Overview
