@@ -1,5 +1,5 @@
-import AlbumStyle from "../static/css/AlbumList.module.css";
-import AlbumCover from "../static/images/albumCover.png";
+import AlbumStyle from "./AlbumList.module.css";
+import AlbumCover from "../../static/images/albumCover.png";
 
 function AlbumList({
   albums,

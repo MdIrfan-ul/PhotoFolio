@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CarouselStyle from "../static/css/Carousel.module.css";
-import Warning from "../static/images/warning.png";
+import CarouselStyle from "./Carousel.module.css";
+import Warning from "../../static/images/warning.png";
 
 function Carousel({images,onClose}){
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

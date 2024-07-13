@@ -1,4 +1,4 @@
-import ImageForms from "../static/css/ImageForm.module.css";
+import ImageForms from "./ImageForm.module.css";
 import {useEffect, useRef} from "react";
 function ImageForm({ addImage,imageToUpdate,resetImageToUpdate, isEditing,updateImage,setShowImageForm,selectedAlbumId }) {
   const titleInputRef = useRef();

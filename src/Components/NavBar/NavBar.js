@@ -1,5 +1,5 @@
-import NavStyle from "../static/css/navBar.module.css";
-import albumLogo from "../static/images/album.png"
+import NavStyle from "./navBar.module.css";
+import albumLogo from "../../static/images/album.png"
 
 function Nav(){
     return(

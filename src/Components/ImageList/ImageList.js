@@ -1,11 +1,11 @@
-import ImageLists from "../static/css/imageList.module.css";
-import Search from "../static/images/search.png";
-import Back from "../static/images/back.png";
-import Edit from "../static/images/edit.png";
-import Delete from "../static/images/delete.png";
-import Carousel from "./Carousel";
-import Cancel from "../static/images/cancel.png";
-import Warning from "../static/images/warning.png";
+import ImageLists from "./imageList.module.css";
+import Search from "../../static/images/search.png";
+import Back from "../../static/images/back.png";
+import Edit from "../../static/images/edit.png";
+import Delete from "../../static/images/delete.png";
+import Carousel from "../Carousel/Carousel";
+import Cancel from "../../static/images/cancel.png";
+import Warning from "../../static/images/warning.png";
 import { useState } from "react";
 
 function ImageList({

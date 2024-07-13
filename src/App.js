@@ -2,11 +2,11 @@ import { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import LoadingSpinner from "./Components/LoadingSpinner";
 import "react-toastify/dist/ReactToastify.css";
-import Nav from "./Components/NavBar";
-import AlbumForm from "./Components/AlbumForm";
-import AlbumList from "./Components/AlbumList";
-import ImageForm from "./Components/ImageForm";
-import ImageList from "./Components/ImageList";
+import Nav from "./Components/NavBar/NavBar";
+import AlbumForm from "./Components/AlbumForm/AlbumForm";
+import AlbumList from "./Components/AlbumList/AlbumList";
+import ImageForm from "./Components/ImageForm/ImageForm";
+import ImageList from "./Components/ImageList/ImageList";
 import { useAlbums } from "./Hooks/useAlbums";
 import { useImages } from "./Hooks/useImages";
 

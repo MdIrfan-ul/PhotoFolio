@@ -1,5 +1,5 @@
 
-import AlbumStyle from "../static/css/Album.module.css";
+import AlbumStyle from "./Album.module.css";
 import { useEffect, useRef } from "react";
 
 function AlbumForm({ addAlbum, albumName, setAlbumName,setShowAlbumForm }) {
